@@ -1,166 +1,73 @@
-*ALU Machine Learning – Formative 3 Probability Distributions, Bayesian Probability, and Gradient Descent Implementation*
+ALU Machine Learning – Formative 3
 
-Group 2
+Probability Distributions, Bayesian Probability, and Gradient Descent Implementation
 
-This repository has all the work we did for the Machine Learning - Formative 3.
+Overview
 
-We did a project that combined statistical modeling, Bayesian probability, handwritten math work and coding Gradient Descent using Python. We learned a lot about how the theory works and how to use it in life. We also worked together as a team using GitHub to keep track of our work.
+This repository contains the implementation of Formative 3 for the Machine Learning module. The project bridges the gap between theoretical mathematics and computational machine learning by implementing core statistical models, Bayesian probability, and optimization algorithms entirely from scratch, without the use of high-level ML abstractions.
 
-Project Description
+Project Architecture
 
-Our project had four parts, each focusing on a different math and computer concept.
+Part 1: Bivariate Normal Distribution (From Scratch)
 
-Part 1 – Bivariate Normal Distribution
+Dataset: Iris Dataset (Features: Sepal Length & Sepal Width).
 
-We used the Iris dataset. Picked two numbers: sepal length and sepal width.
+Implementation: * Extracted and preprocessed target variables.
 
-Here are the steps we took:
+Computed standard deviation, covariance, and correlation matrices natively.
 
-We got the dataset. Cleaned it up
+Engineered a custom Bivariate Normal Probability Density Function (PDF).
 
-We took out the numbers for both variables
+Visualization: Generated contour plots to represent data distribution and 3D surface plots to visualize the probability surface, demonstrating the mathematical impact of mean, variance, and covariance on distribution geometry.
 
-We calculated:
+Part 2: Bayesian Sentiment Analysis
 
--The standard deviation
+Dataset: Movie Review Dataset.
 
--How much the numbers vary together
+Implementation:
 
--How much the numbers are related
+Conducted text preprocessing and exploratory data analysis.
 
--We made a Bivariate Normal Probability Density Function from scratch without using any special libraries
+Extracted and mapped positive and negative word frequencies.
 
-We broke down the formula into parts
+Implemented a Naive Bayes classifier from scratch to calculate prior and posterior probabilities.
 
-We calculated the probability for some of the data points
+Categorized reviews based on maximum likelihood estimation (MLE).
 
-We made pictures:
+Part 3: Mathematical Derivation of Gradient Descent
 
-Contour plots that show the shape of the data
+Implementation: * Performed manual forward pass calculations for a linear regression model.
 
-3D plots that show the probability surface
+Derived the Mean Squared Error (MSE) loss function analytically using the Chain Rule.
 
-This part showed us how the average affects the center the variation affects the spread and the relationship affects the shape.
+Calculated gradients and executed manual parameter updates for 4 continuous iterations.
 
-Part 2 – Bayesian Probability
+See attached PDF (Part 3 - Gradient Manual Calculation.pdf) for complete mathematical proofs and derivations.
 
-We looked at movie reviews using Bayesian ideas.
+Part 4: Custom Gradient Descent Implementation (Python)
 
-We:
+Implementation:
 
-Got the movie review dataset. Cleaned it up
+Translated the mathematical derivations from Part 3 into Python using NumPy for vectorized operations.
 
-Looked at the text data
+Built the Gradient Descent optimization loop from scratch (zero reliance on scikit-learn or similar libraries).
 
-Found the positive and negative words
+Tracked loss convergence and parameter updates across epochs to validate the manual mathematical model.
 
-Counted how often each word appeared
+Repository Structure
 
-Used Naive Bayes to figure out the probability
+├── Bayesian (2).ipynb                                  # Part 2: Naive Bayes Implementation
+├── Probability_Distributions_ML_Formative_3.ipynb      # Part 1: Bivariate Distribution & Vis
+├── part_4_gradient_descent.ipynb                       # Part 4: Python Gradient Descent
+├── iris.csv                                            # Dataset for Part 1
+├── Part 3 - Gradient Manual Calculation .pdf           # Mathematical proofs and iterations
+└── README.md                                           # Project documentation
 
-Compared the probability of good and bad reviews
 
-Picked the likely sentiment
+Team & Contributions (Group 2)
 
-This part connected the theory of Bayesian probability to real-life text classification.
+Hikma Hamza (Team Lead): Project management, Git branch oversight, code review, mathematical validation, and documentation.
 
-Part 3 – Handwritten Gradient Descent
+Sam Rurangamirwa: Lead developer for Python Gradient Descent (Part 4), data visualization architecture (Contour/3D plots), and manual derivations.
 
-We did all the math without using code.
-
-We:
-
-Made a linear regression model
-
-Did the forward pass calculations
-
-Figured out the Mean Squared Error loss function
-
-Used the Chain Rule to find the derivative
-
-Calculated the gradient by hand
-
-Updated the parameters using descent
-
-Iterated it step by step per number of group members 
-
-Checked our answers using code
-
-We wrote down all the steps clearly to show we understood the concept.
-
-Part 4 – Manual Gradient Descent Code
-
-After doing the math we coded Gradient Descent from scratch in Python.
-
-We:
-
-Used NumPy for vector operations
-
-Did not use any high-level machine learning libraries
-
-Updated the parameters
-
-Tracked how the loss changed
-
-Looked at how the parameters converged
-
-Checked our answers against the math
-
-This part linked the theory to the code and made sure it all worked together.
-
-Collaboration & Version Control
-
-To work together smoothly:
-
-Each team member made a branch on GitHub for their part
-
-We worked on our parts and tested them
-
-We reviewed each others work before combining it
-
-We put the final versions on the main branch
-
-We used Google Colab for coding and GitHub for tracking changes.
-
-We scanned our work and added it to the project.
-
-This way we could see what everyone did. Keep track of changes.
-
-Team Contributions
-
-Hikma Hamza – Team Leader
-
-Was in charge of the project and made sure everyone was on track
-
-Helped with the collaboration and made sure everyone knew what to do
-
-Oversaw the branches and made sure everything was merged correctly
-
-Checked the answers and made sure they were correct
-
-Wrote the README documentation
-
-Sam Rurangamirwa
-
-Did Gradient Descent in Code 
-
-Made the contour and 3D plots
-
-Helped alot with the handwritten derivations
-
-
-Dan Dushime
-
-Led Part 2 the Bayesian Sentiment Analysis
-
-Worked on the movie dataset
-
-Calculated the probabilities
-
-I helped with the handwritten derivations
-
-This project shows how probability, statistics, Bayesian reasoning and optimization algorithms work together. By doing the math and coding we learned a lot, about the basics of machine learning and how to work together as a team.
-
-BELOW IS THE PDF OF OUR COMBINED MANUAL CALCULATION WITH 4 ITERATIONS
-[Part 3 - Gradient Manual Calculation .pdf](https://github.com/user-attachments/files/25665769/Part.3.-.Gradient.Manual.Calculation.pdf)
-
+Dan Dushime: Lead developer for Bayesian Sentiment Analysis (Part 2), text dataset preprocessing, predictive probability computations, and manual derivations.
