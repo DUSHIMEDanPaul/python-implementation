@@ -1,4 +1,4 @@
-ALU Machine Learning – Formative 3 Probability Distributions, Bayesian Probability, and Gradient Descent Implementation
+*ALU Machine Learning – Formative 3 Probability Distributions, Bayesian Probability, and Gradient Descent Implementation*
 
 Group 2
 
@@ -22,13 +22,13 @@ We took out the numbers for both variables
 
 We calculated:
 
-The standard deviation
+-The standard deviation
 
-How much the numbers vary together
+-How much the numbers vary together
 
-How much the numbers are related
+-How much the numbers are related
 
-We made a Bivariate Normal Probability Density Function from scratch without using any special libraries
+-We made a Bivariate Normal Probability Density Function from scratch without using any special libraries
 
 We broke down the formula into parts
 
