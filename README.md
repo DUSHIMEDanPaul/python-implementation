@@ -10,7 +10,9 @@ Project Architecture
 
 Part 1: Bivariate Normal Distribution (From Scratch)
 
-Dataset: Iris Dataset (Features: Sepal Length & Sepal Width).
+Code: Probability_Distributions_ML_Formative_3_Group_2.ipynb
+
+Dataset: iris.csv (Features: Sepal Length & Sepal Width).
 
 Implementation: * Extracted and preprocessed target variables.
 
@@ -22,11 +24,13 @@ Visualization: Generated contour plots to represent data distribution and 3D sur
 
 Part 2: Bayesian Sentiment Analysis
 
+Code: Bayesian (2).ipynb
+
 Dataset: Movie Review Dataset.
 
 Implementation:
 
-Conducted text preprocessing and exploratory data analysis.
+Conducted text preprocessing and exploratory data analysis (EDA).
 
 Extracted and mapped positive and negative word frequencies.
 
@@ -36,15 +40,19 @@ Categorized reviews based on maximum likelihood estimation (MLE).
 
 Part 3: Mathematical Derivation of Gradient Descent
 
+Documentation: Part 3 - Gradient Manual Calculation .pdf
+
 Implementation: * Performed manual forward pass calculations for a linear regression model.
 
 Derived the Mean Squared Error (MSE) loss function analytically using the Chain Rule.
 
 Calculated gradients and executed manual parameter updates for 4 continuous iterations.
 
-See attached PDF (Part 3 - Gradient Manual Calculation.pdf) for complete mathematical proofs and derivations.
+See attached PDF for complete mathematical proofs and derivations.
 
 Part 4: Custom Gradient Descent Implementation (Python)
+
+Code: part_4_gradient_descent.ipynb
 
 Implementation:
 
