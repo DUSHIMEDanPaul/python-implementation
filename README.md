@@ -64,12 +64,12 @@ Tracked loss convergence and parameter updates across epochs to validate the man
 
 Repository Structure
 
-├── Bayesian (2).ipynb                                  # Part 2: Naive Bayes Implementation
-├── Probability_Distributions_ML_Formative_3.ipynb      # Part 1: Bivariate Distribution & Vis
-├── part_4_gradient_descent.ipynb                       # Part 4: Python Gradient Descent
-├── iris.csv                                            # Dataset for Part 1
-├── Part 3 - Gradient Manual Calculation .pdf           # Mathematical proofs and iterations
-└── README.md                                           # Project documentation
+├── Bayesian (2).ipynb                                  
+├── Probability_Distributions_ML_Formative_3.ipynb      
+├── part_4_gradient_descent.ipynb                        
+├── iris.csv                                           
+├── Part 3 - Gradient Manual Calculation .pdf           
+└── README.md                                           
 
 
 Team & Contributions (Group 2)
