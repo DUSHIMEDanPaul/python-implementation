@@ -10,7 +10,7 @@ Project Architecture
 
 Part 1: Bivariate Normal Distribution (From Scratch)
 
-Code: Probability_Distributions_ML_Formative_3_Group_2.ipynb
+Code: Probability_Distributions_ML_Formative_3.ipynb
 
 Dataset: iris.csv (Features: Sepal Length & Sepal Width).
 
