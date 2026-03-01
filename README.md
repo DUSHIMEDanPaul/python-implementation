@@ -160,3 +160,7 @@ Calculated the probabilities
 I helped with the handwritten derivations
 
 This project shows how probability, statistics, Bayesian reasoning and optimization algorithms work together. By doing the math and coding we learned a lot, about the basics of machine learning and how to work together as a team.
+
+BELOW IS THE PDF OF OUR COMBINED MANUAL CALCULATION WITH 4 ITERATIONS
+[Part 3 - Gradient Manual Calculation .pdf](https://github.com/user-attachments/files/25665769/Part.3.-.Gradient.Manual.Calculation.pdf)
+
